@@ -207,15 +207,6 @@ export default function Products({ allProducts, allCategories, currUser }) {
 export async function getServerSideProps(ctx) {
     const session = await getSession(ctx);
 
-    if (!session) {
-      return {
-        redirect: {
-          permanent: false,
-          destination: '/signin'
-        }
-      }
-    }
-
     try {
       const response = await axios({
           url: `${process.env.API_BASE_URL}/product/graphql`,

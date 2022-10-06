@@ -33,15 +33,6 @@ export default function SalesOrder(props) {
 export async function getServerSideProps(ctx) {
     const session = await getSession(ctx);
     const ExecutivePosition = ["President", "Vice President", "Manager", "Accountant"];
-    
-    if (!session) {
-        return {
-          redirect: {
-            permanent: false,
-            destination: '/signin'
-          }
-        }
-      }
 
       if (!ExecutivePosition.includes(session.position)) {
         return {

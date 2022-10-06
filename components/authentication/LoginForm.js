@@ -55,7 +55,7 @@ export default function LoginForm() {
     
           const authResponse = await signIn('credentials', { redirect: false, access: user.token.access, refresh: user.token.refresh });
           if (authResponse.ok) {
-            history.push("/");
+            history.push("/dashboard");
           }
     
       } catch(err) {
