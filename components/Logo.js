@@ -14,7 +14,7 @@ export default function Logo({ sx }) {
   return (
     <Box>
       <Image
-        src="https://res.cloudinary.com/ddpqji6uq/image/upload/v1665009280/graphql_images/logo_icon_ujpuvq.png"
+        src="/favicon.ico"
         alt="Company Logo"
         width={40}
         height={40}
