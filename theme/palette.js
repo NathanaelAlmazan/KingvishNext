@@ -29,19 +29,19 @@ const GREY = {
 };
 
 const PRIMARY = {
-  lighter: '#C8FACD',
-  light: '#5BE584',
-  main: '#00AB55',
-  dark: '#007B55',
-  darker: '#005249',
+  lighter: '#89CFF0',
+  light: '#7CB9E8',
+  main: '#0066b2',
+  dark: '#00308F',
+  darker: '#002D62',
   contrastText: '#fff'
 };
 const SECONDARY = {
-  lighter: '#D6E4FF',
-  light: '#84A9FF',
-  main: '#3366FF',
-  dark: '#1939B7',
-  darker: '#091A7A',
+  lighter: '#ffffe0',
+  light: '#f5f5dc',
+  main: '#fff44f',
+  dark: '#ffdf00',
+  darker: '#b5a642',
   contrastText: '#fff'
 };
 const INFO = {
