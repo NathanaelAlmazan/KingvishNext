@@ -390,8 +390,7 @@ export async function getStaticProps(ctx) {
       }
     
       return {
-        props: { statistics: appStatistics },
-        revalidate: 60
+        props: { statistics: appStatistics }
       }
   } catch (err) {
     return {
