@@ -22,7 +22,7 @@ function MyApp({ Component,  emotionCache = clientSideEmotionCache, pageProps })
   return (
     <CacheProvider value={emotionCache}>
       <Head>
-        <title>Kingvish Hydraulic Trading</title>
+        <title>Test Only</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>

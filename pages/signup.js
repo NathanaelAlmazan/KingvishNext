@@ -41,7 +41,7 @@ export default function Login() {
         <ContentStyle>
           <Stack sx={{ mb: 5 }}>
             <Typography variant="h4" gutterBottom>
-                Signup to Kingvish Hydraulic Trading
+                Signup to Test Application
             </Typography>
             <Typography sx={{ color: 'text.secondary' }}>Enter your details below.</Typography>
           </Stack>
